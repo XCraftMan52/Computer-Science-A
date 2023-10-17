@@ -1,3 +1,8 @@
+/*
+ * Four Function Calculator
+ * Coded By Lucas Webber & Justyn Collazo
+ */
+
 import java.util.Scanner;
 
 public class FourFunctionCalculator {

@@ -1,3 +1,8 @@
+/*
+ * Lucky Seven Game
+ * Coded By Lucas Webber & Justyn Collazo
+ */
+
 import java.util.*;
 
 public class LuckySeven {
@@ -60,5 +65,6 @@ public class LuckySeven {
         } else {
             System.out.println("Sorry! You lost " + score + " to " + cpuScore + ".");
         }
+        scanner.close();
     }
 }
