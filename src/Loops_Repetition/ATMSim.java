@@ -1,3 +1,4 @@
+package Loops_Repetition;
 import java.util.*;
 
 public class ATMSim {
@@ -52,5 +53,6 @@ public class ATMSim {
                     System.out.println("Your final balance is: $" + balance + " Have a great day!");
             }
         }
+        input.close();
     }
 }

@@ -1,3 +1,4 @@
+package Loops_Repetition;
 import java.util.*;
 public class Dice {
     public static void main(String[] args) {
@@ -36,6 +37,7 @@ public class Dice {
             {
                 endProgram = true;
             }
+            input.close();
         } //END OF WHILE LOOP
     }
 }

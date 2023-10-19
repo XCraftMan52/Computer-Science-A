@@ -2,7 +2,7 @@
  * Lucky Seven Game
  * Coded By Lucas Webber & Justyn Collazo
  */
-
+package Conditional_Statements;
 import java.util.*;
 
 public class LuckySeven {
