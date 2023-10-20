@@ -1,6 +1,6 @@
 package Loops_Repetition;
 import java.util.*;
-
+// Made by Justyn Collazo and Lucas Webber
 public class ATMSim {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
