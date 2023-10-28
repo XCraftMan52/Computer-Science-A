@@ -6,7 +6,6 @@ public class Dice {
         boolean endProgram = false;
         while (!endProgram) {
 
-
             System.out.println("\nHow many dice would you like to roll?");
             Scanner input = new Scanner(System.in);
             int numDice = input.nextInt();

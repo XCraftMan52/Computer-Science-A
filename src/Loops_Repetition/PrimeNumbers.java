@@ -1,3 +1,5 @@
+package Loops_Repetition;
+
 import java.util.Scanner;
 
 public class PrimeNumbers {
