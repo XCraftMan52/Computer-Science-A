@@ -1,3 +1,4 @@
+package Methods.Crap;
 import java.util.*;
 
 public class Crap {
