@@ -1,4 +1,4 @@
-package Loops_Repetition;
+package Loops_Repetition.Dice;
 import java.util.*;
 public class Dice {
     public static void main(String[] args) {

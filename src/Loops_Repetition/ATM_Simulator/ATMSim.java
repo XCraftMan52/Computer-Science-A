@@ -1,4 +1,4 @@
-package Loops_Repetition;
+package Loops_Repetition.ATM_Simulator;
 import java.util.*;
 // Made by Justyn Collazo and Lucas Webber
 public class ATMSim {

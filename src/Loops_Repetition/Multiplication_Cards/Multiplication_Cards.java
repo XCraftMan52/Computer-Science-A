@@ -1,4 +1,4 @@
-package Loops_Repetition;
+package Loops_Repetition.Multiplication_Cards;
 
 import java.util.Scanner;
 public class Multiplication_Cards {

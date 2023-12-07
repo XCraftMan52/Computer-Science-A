@@ -2,7 +2,7 @@
  * Four Function Calculator
  * Coded By Lucas Webber & Justyn Collazo
  */
-package Conditional_Statements;
+package Conditional_Statements.Four_Function_Calculator;
 import java.util.Scanner;
 
 public class FourFunctionCalculator {

@@ -1,4 +1,4 @@
-package Loops_Repetition;
+package Loops_Repetition.Prime_Numbers;
 
 import java.util.Scanner;
 
@@ -44,6 +44,7 @@ public class PrimeNumbers {
             if (choice == 0) {
                 endProgram = true;
             }
+            input.close();
         }
     }
 }

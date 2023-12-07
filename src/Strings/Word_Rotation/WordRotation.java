@@ -1,3 +1,4 @@
+package Strings.Word_Rotation;
 import java.util.*;
 
 public class WordRotation {
@@ -11,7 +12,6 @@ public class WordRotation {
 
         if (rotation < 0 || rotation >= word.length()) {
             System.out.println("Invalid rotation input. Please enter a non-negative number less than the length of the string.");
-            return;
         }
 
         String rotatedWord = rotateString(word, rotation);
@@ -19,6 +19,7 @@ public class WordRotation {
         System.out.println(word + " rotated to the right by " + rotation + " is:");
         System.out.println(rotatedWord);
         System.out.println("Thank you!");
+        input.close();
     }
 
     private static String rotateString(String str, int rotation) {

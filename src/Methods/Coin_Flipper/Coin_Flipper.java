@@ -1,4 +1,4 @@
-package Methods;
+package Methods.Coin_Flipper;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Loops_Repetition;
+package Loops_Repetition.Vending_Machine;
 
 import java.util.Scanner;
 
