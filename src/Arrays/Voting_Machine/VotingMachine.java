@@ -10,7 +10,7 @@ public class VotingMachine {
         NumberFormat myFormatter = new DecimalFormat("#.##");
 
         System.out.println("Happy Election Day! Here are the canidates running fot the head of the Cumberland Java Society:");
-        String[] canidates = {"Avi", "Skirka", "Mr. R", "Georgio"};
+        String[] canidates = {"Avi", "Ben", "Harry", "Georgio"};
         for (int i = 0; i < canidates.length; i++) {
             System.out.println((i + 1) + ":  " + canidates[i]);
         }
