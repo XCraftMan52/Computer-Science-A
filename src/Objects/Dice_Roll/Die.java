@@ -5,14 +5,17 @@ public class Die {
     private int numsides;
 
     // Constructors
-    public Die(int sides) {
-        numsides = sides;
+    public Die(int numsides) {
+        this.numsides = numsides;
     }
     public Die() {
-        numsides = 1;
+        numsides = 6;
     }
 
     //Methods
+    public int getNumSides() {
+        return numsides;
+    }
     public int roll() {
         return (int)((Math.random() * numsides) + 1);
     }
