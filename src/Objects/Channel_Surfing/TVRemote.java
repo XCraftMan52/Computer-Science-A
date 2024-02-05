@@ -16,8 +16,8 @@ public class TVRemote {
     }
     // Methods
     void changeChannel(int channel) {
-        if (channel < 2 || channel > 13) {
-            System.out.println("Channel must be between 1 and 100");
+        if (channel < 1 || channel > 13) {
+            System.out.println("Channel must be between 1 and 13");
         } else {
             this.channel = channel;
             System.out.println("Channel changed to " + channelName(channel));

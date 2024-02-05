@@ -21,7 +21,7 @@ public class ChannelSurfing {
                 case 3:
                     System.out.println("What channel would you like to watch?");
                     int channel = input.nextInt();
-                    if (channel < 2 || channel > 13) {
+                    if (channel < 1 || channel > 13) {
                         System.out.println("Channel "+ channel + " does not exist. Please enter a valid channel");
                         break;
                     }
@@ -49,7 +49,7 @@ public class ChannelSurfing {
                     break;
             }
             System.out.println("Currenly watching channel " + remote.channel + " - " + remote.channelName(remote.channel) + ". Volume: " + remote.volume + ". What would you like to do?" );
-            System.out.println("1. Power Off" + "\n2. Change Channel" + "\n3. Channel Up" + "\n4. Channel Down" + "\n5. Volume Up" + "\n6. Volume Down");
+        System.out.println("1. Power Off" + "\n2. List Channels and Channel Names" + "\n3. Change Channel" + "\n4. Channel Up" + "\n5. Channel Down" + "\n6. Volume Up" + "\n7. Volume Down");
             choice = input.nextInt();
         }
         System.out.println("Powering off...");
